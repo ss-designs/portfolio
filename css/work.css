@@ -1,0 +1,35 @@
+/*Text Typography*/
+* {
+  font-family: times, serif;
+}
+
+/*Main CSS*/
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#recentWork {
+  background-color: white;
+  height: 817px;
+  margin-left: 15%;
+}
+
+#mostRecent {
+    box-shadow: 0px 11px 10px 10px grey;
+    padding: 12px;
+    margin-top: 5%;
+}
+
+#clientLogo {
+    border: 2px solid black;
+    height: 500px;
+}
+
+#exampleSite {
+    border: 2px solid blue;
+    height: 500px;
+    margin-left: 7%;
+}
