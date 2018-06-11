@@ -2,25 +2,60 @@
 <html>
 <head>
   <title>SSL Designs - Minneapolis Web Developer</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><!-- 
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
 </head>
 <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">S Web Designs & Development</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#Work">Work</a></li>
+        <li class="active"><a href="#Services">Services</a></li> 
+        <li class="active"><a href="#About">About</a></li> 
+        <li class="active"><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
   <header><!--start of header-->
     <div class="full-width"><!--start of headers full-width-->
-      <div class="navbar"><!--start of navbar-->
-        
-      </div><!--end of navbar-->
       <div class="w3-content w3-section" style="width:100%; animation-duration: 15s; position: absolute;"><!--start of headers photoslide-->
         <img class="mySlides animated fadeIn" src="img/desktop-surface.jpg" style="width:100%">
         <img class="mySlides animated fadeIn" src="img/salonbg.jpg" style="width:100%">
       </div><!--End of Picture slide-->
-      <div class="headerMsg"><!--start of headers message-->
-        
-      </div>
+      <div id="headerMsg" class="animated fadeIn"><!--start of headers message-->
+        <div id="headerMsgBg"></div><!--headers background-->
+        <div id="headersText"><!--start of headers text-->
+          <h1>SSL DESIGNS</h1>
+          <hr>
+          <p>Creating unique, simple web designs & websites for small local businesses.</p>
+            <div id="connectWithMe"><!--Start of the Header contact-->
+              <h5>Let's Create your Site!</h5>
+              <button type="button" class="btn btn-light"><a href="#Contact">Connect with Me!</a></button>
+            </div><!--End of header contact-->
+        </div><!--end of headers text-->
+      </div><!--end of headers message-->
     </div><!--End of header full-width-->
   </header><!--End of header-->
   <main><!--start of main-->
@@ -31,6 +66,13 @@
         </div><!--End of work half-width-->
       </div><!--End of work full-width-->
     </section><!--End of work section-->
+      <section id="Services"><!--start of Services section-->
+      <div class="full-width"> <!--start of Services full-width-->
+        <div class="half-width"><!--start of Services half-width-->
+        
+        </div><!--End of Services half-width-->
+      </div><!--End of Services full-width-->
+    </section><!--End of Services section--> 
     <section id="About"><!--start of about section-->
       <div class="full-width"><!--start of full-width-->
         <div class="third-width"><!--start of third-width-->
