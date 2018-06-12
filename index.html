@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cardo:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
   <nav class="navbar navbar-inverse">
@@ -30,7 +31,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
-        <li class="active"><a href="#Work">Work</a></li>
+        <li class="active"><a href="#workSection">Work</a></li>
         <li class="active"><a href="#Services">Services</a></li> 
         <li class="active"><a href="#About">About</a></li> 
         <li class="active"><a href="#Contact">Contact</a></li>
@@ -59,28 +60,66 @@
     </div><!--End of header full-width-->
   </header><!--End of header-->
   <main><!--start of main-->
-    <section id="Work"><!--start of Work section-->
+    <section id="Work" class="animated fadeIn"><!--start of Work section-->
       <div class="full-width"> <!--start of work full-width-->
+        <p id="workSection" class="animated fadeInLeft">Work</p>
         <div class="half-width"><!--start of work half-width-->
-        
+          <div class="projectInfo"><!--End of projectInfo of Work Section-->
+            <a href="http://www.anyosalon.com/" target="_"><h4>Anyo Salon</h4></a>
+            <p id="projectTools">Created with: HTML, CSS, Bootstrap, Javascript</p>
+            <p>I worked with Amy on creating a simple and easy-to-use website for her salon. Amy wanted a nice design that was unique but also has the ability to be used on all devices.</p>
+            <button type="button" class="btn btn-light"><a href="http://www.anyosalon.com/" target="_">Check out this Site!</a></button>
+          </div><!--End of projectInfo of Work Section-->
+          <div class="projectDisplay"><!--Start of projectDisplay of Work Section-->
+            <a href="http://www.anyosalon.com/" target="_"><img src="img/anyosalonwebsite.PNG"></a>
+          </div><!--End of projectDisplay of Work Section-->
         </div><!--End of work half-width-->
       </div><!--End of work full-width-->
     </section><!--End of work section-->
-      <section id="Services"><!--start of Services section-->
+    <section>
+      <div class="sectionSplitter"></div>
+    </section>
+    <section id="Services" class="animated fadeIn"><!--start of Services section-->
       <div class="full-width"> <!--start of Services full-width-->
+        <p id="serviceSection" class="animated fadeInLeft">Services</p>
         <div class="half-width"><!--start of Services half-width-->
-        
+          <h4>Here's My Process:</h4>
+          <div id="theProcess"><!--start of Services the process-->
+            <div class="serviceList1"><!--start of Services serviceList1-->
+              <ul>
+                <li class="boldAmiriText"><i class="far fa-lightbulb"></i> Brainstorming & Conceptual Thinking</li>
+                <li class="coveredText listSpacing">This is where we go over your <span class="underlineHighlightText">hopes, fears and dreams</span> of what you want your website to look like.</li>
+                <li class="boldAmiriText"><i class="far fa-edit"></i> Sketching & Research Analysis</li>
+                <li class="coveredText listSpacing">Here we'll make some rough sketches and start listing everything together that you want on your website.</li>
+                <li class="boldAmiriText"><i class="far fa-object-group"></i> Wireframing - lo to hi end wireframe design</li>
+                <li class="coveredText">Now we'll go through and create a layout to what your website will look like & how it'll be used.</li> 
+              </ul>
+            </div><!--start of Services serviceList1-->
+            <div id="servicesDivider"></div><!--Start and end of services divider-->
+            <div class="serviceList2"><!--start of Services serviceList2-->
+              <ul class="reducedLineHeight">
+                <li class="boldAmiriText">Coding Wireframe <i class="fas fa-code"></i></li>
+                <li class="coveredText listSpacing"><span class="underlineHighlightText">From ideas to reality!</span> Here we code your web design to make it into a fully functioning website!</li>
+                <li class="boldAmiriText">Responsive Design <i class="fas fa-desktop"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-mobile-alt"></i></li>
+                <li class="coveredText listSpacing">After coding the website, we'll make sure it looks <span class="underlineHighlightText">fantastic</span> on all devices!</li>
+                <li class="boldAmiriText">Testing & Reviewing <i class="fas fa-bug"></i></li>
+                <li class="coveredText listSpacing">Second to our last step, we take a good overlook of what we've created and make sure that everything is working out correctly.</li>
+                <li class="boldAmiriText">Final Setup and Launching your Websites <i class="fas fa-rocket"></i></li>
+                <li class="coveredText">Houston, We're going Live!</li>
+              </ul>
+            </div><!--start of Services serviceList2-->
+          </div><!--start of Services the process-->
         </div><!--End of Services half-width-->
       </div><!--End of Services full-width-->
     </section><!--End of Services section--> 
-    <section id="About"><!--start of about section-->
+    <section id="About" class="animated fadeIn"><!--start of about section-->
       <div class="full-width"><!--start of full-width-->
         <div class="third-width"><!--start of third-width-->
         
         </div><!--End of about third-width-->
       </div><!--End of about full-width-->
     </section><!--End of about section-->
-    <section id="Contact"><!--start of contact section-->
+    <section id="Contact" class="animated fadeIn"><!--start of contact section-->
       <div class="full-width"><!--start of contact full-width-->
         
       </div><!--End of contact full-width-->
