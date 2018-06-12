@@ -1,5 +1,23 @@
 /* Text */
 
+
+.coveredByText {
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+.amiriText {
+  font-family: 'Amiri', serif;
+
+}
+
+.yellowTailText {
+  font-family: 'Yellowtail', cursive;
+}
+
+.cardoText {
+  font-family: 'Cardo', serif;
+}
+
 .underlineHighlightText {
   text-decoration: underline;
   background-color: yellow;
@@ -13,6 +31,10 @@
 
 .navbar {
   margin-bottom: 0;
+}
+
+.branding {
+  font-family: 'Yellowtail', cursive;
 }
 
 .navbar .active a {
@@ -155,7 +177,8 @@
 }
 
 .projectDisplay img {
-  width: 100%;
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
 }
 
 /* splitter */
@@ -183,10 +206,10 @@
 }
 
 #Services .half-width {
-    border: solid 1px black;
+    border: solid 2px black;
     width: 80%;
     margin: auto;
-    height: 400px;
+    height: 400px;  
 }
 
 #Services h4 {
@@ -252,17 +275,77 @@
 /*  About  */
 
 #About {
-  background-color: #d1cfce;
-  width: 100%;
-  height: 500px;
-  position: relative;
+    background-color: #06060605;
+    width: 100%;
+    height: 600px;
+    position: relative;
 }
 
+#About .third-width {
+    border: solid 2px black;
+    height: 505px;
+    width: 95%;
+    padding: 25px;
+    margin-left: 3.5%;
+}
+
+#aboutSection {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 35px;
+  text-decoration: underline;
+  margin-left: 2%;
+}
+
+#aboutPic1 {
+    height: 450px;
+    width: 400px;
+    float: left;
+    display: inline-block;
+    margin-left: 1.5%;
+}
+
+#aboutPic1 img {
+  height: 100%;
+  width: 100%;
+}
+
+#aboutContent {
+    height: 450px;
+    width: 400px;
+    float: left;
+    display: inline-block;
+    padding: 5%;
+  }
+
+#aboutContent h3,
+#aboutContent p {
+  text-align: center;
+}
+
+#aboutContent h3 {
+  font-size: 35px;
+}
+
+#aboutContent p {
+  font-size: 19px;
+}
+
+#aboutPic2 {
+    height: 450px;
+    width: 400px;
+    float: left;
+    display: inline-block;
+}
+
+#aboutPic2 img {
+  height: 100%;
+  width: 100%;
+}
 
 /*  Contact  */
 
 #Contact {
-  background-color: blue;
+  background-color: #fff;
   width: 100%;
   height: 500px;
   position: relative;
