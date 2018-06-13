@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>SSL Designs - Minneapolis Web Developer</title>
   <meta charset="utf-8">
@@ -34,7 +34,7 @@
         <li class="active"><a href="#workSection">Work</a></li>
         <li class="active"><a href="#serviceSection">Services</a></li> 
         <li class="active"><a href="#aboutSection">About</a></li> 
-        <li class="active"><a href="#Contact">Contact</a></li>
+        <li class="active"><a href="#contactSection">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -42,8 +42,8 @@
   <header><!--start of header-->
     <div class="full-width"><!--start of headers full-width-->
       <div class="w3-content w3-section" style="width:100%; animation-duration: 15s; position: absolute;"><!--start of headers photoslide-->
-        <img class="mySlides animated fadeIn" src="img/desktop-surface.jpg" style="width:100%">
-        <img class="mySlides animated fadeIn" src="img/salonbg.jpg" style="width:100%">
+        <img class="mySlides animated fadeIn" src="img/desktop-surface.jpg" style="width:100%" alt="desktop-surface-screenshot">
+        <img class="mySlides animated fadeIn" src="img/salonbg.jpg" style="width:100%" alt="salon-screenshot">
       </div><!--End of Picture slide-->
       <div id="headerMsg" class="animated fadeIn"><!--start of headers message-->
         <div id="headerMsgBg"></div><!--headers background-->
@@ -53,7 +53,7 @@
           <p>Creating unique, simple web designs & websites for small local businesses.</p>
             <div id="connectWithMe"><!--Start of the Header contact-->
               <h5>Let's Create your Site!</h5>
-              <button type="button" class="btn btn-light"><a href="#Contact">Connect with Me!</a></button>
+              <a href="#Contact" class="btn btn-light">Connect with Me!</a>
             </div><!--End of header contact-->
         </div><!--end of headers text-->
       </div><!--end of headers message-->
@@ -65,20 +65,32 @@
         <p id="workSection" class="animated fadeInLeft">Work</p>
         <div class="half-width"><!--start of work half-width-->
           <div class="projectInfo"><!--End of projectInfo of Work Section-->
-            <a href="http://www.anyosalon.com/" target="_"><h4>Anyo Salon</h4></a>
-            <p id="projectTools">Created with: HTML, CSS, Bootstrap, Javascript</p>
+            <a href="http://www.anyosalon.com/" target="_blank"><h4>Anyo Salon</h4></a>
+            <p id="projectTools">Created with: HTML, CSS, Bootstrap, Javascript & Photoshop</p>
             <p>I worked with Amy on creating a simple and easy-to-use website for her salon. Amy wanted a nice design that was unique but also has the ability to be used on all devices.</p>
-            <button type="button" class="btn btn-light"><a href="http://www.anyosalon.com/" target="_">Check out this Site!</a></button>
+            <a href="http://www.anyosalon.com/" class="btn btn-light" target="_blank">Check out this Site!</a>
           </div><!--End of projectInfo of Work Section-->
           <div class="projectDisplay"><!--Start of projectDisplay of Work Section-->
-            <a href="http://www.anyosalon.com/" target="_"><img src="img/anyosalonwebsite.PNG"></a>
+            <a href="http://www.anyosalon.com/" target="_blank"><img src="img/anyosalonwebsite.PNG" alt="anyo-salon-web-screenshot"></a>
           </div><!--End of projectDisplay of Work Section-->
         </div><!--End of work half-width-->
       </div><!--End of work full-width-->
     </section><!--End of work section-->
-    <section>
-    <div class="sectionSplitter"></div>
-    </section>
+    <section id="Work2" class="animated fadeIn"><!--start of Work section-->
+      <div class="full-width"> <!--start of work full-width-->
+        <div class="half-width"><!--start of work half-width-->
+          <div class="projectInfo"><!--End of projectInfo of Work Section-->
+            <a href="http://skillcrusher-ss-designs.bitballoon.com/" target="_blank"><h4>HTML & CSS Exercise</h4></a>
+            <p id="projectTools2">Created with: HTML, CSS & Photoshop</p>
+            <p class="move-to-the-left">This was an exercise where I used my knowledge in code to recreate a PSD file using HTML & CSS. Which resulted in a nice & clean design that shows all the main sections properly.</p>
+            <a href="http://skillcrusher-ss-designs.bitballoon.com/" class="btn btn-light" target="_blank">Check out this Site!</a>
+          </div><!--End of projectInfo of Work Section-->
+          <div class="projectDisplay"><!--Start of projectDisplay of Work Section-->
+            <a href="http://skillcrusher-ss-designs.bitballoon.com/" target="_blank"><img src="img/html-css-website.PNG"  alt="html-css-website-screenshot"></a>
+          </div><!--End of projectDisplay of Work Section-->
+        </div><!--End of work half-width-->
+      </div><!--End of work full-width-->
+    </section><!--End of work section-->
     <section id="Services" class="animated fadeIn"><!--start of Services section-->
       <div class="full-width"> <!--start of Services full-width-->
         <p id="serviceSection" class="animated fadeInLeft">Services</p>
@@ -112,28 +124,43 @@
         </div><!--End of Services half-width-->
       </div><!--End of Services full-width-->
     </section><!--End of Services section-->
-    <div class="sectionSplitter"></div> 
     <section id="About" class="animated fadeIn"><!--start of about section-->
       <div class="full-width"><!--start of full-width-->
         <p id="aboutSection" class="animated fadeInLeft">About</p>
-          <div class="third-width"><!--start of third-width-->
-            <div id="aboutPic1"><!--Start of about about me pic 1-->
-              <img src="img/shane.jpg">
-            </div><!--End of about about me pic 1-->
-            <div id="aboutContent" class="amiriText"><!--start of about Description-->
-              <h3>Hello World!</h3>
-              <p>The names Shane Lo, I'm freelance web developer who creates unique & simple websites for local small businesses to help create their web presence grow their business. I’m someone who loves to learn and solve creative problems.</p>
-            </div><!--end of about Description-->
-            <div id="aboutPic2"><!--Start of about about me pic 2-->
-              <img src="img/shane2.jpg">
-            </div><!--End of about about me pic 2-->
-          </div><!--End of about third-width-->
+        <div class="third-width"><!--start of third-width-->
+          <div id="aboutPic1"><!--Start of about about me pic 1-->
+            <img src="img/shane.jpg" alt="profile-phot1">
+          </div><!--End of about about me pic 1-->
+          <div id="aboutContent" class="amiriText"><!--start of about Description-->
+            <h3>Hello World!</h3>
+            <p>The names Shane Lo, I'm freelance web developer who creates unique & simple websites for local small businesses to help create their web presence grow their business. I’m someone who loves to learn and solve creative problems.</p>
+          </div><!--end of about Description-->
+          <div id="aboutPic2"><!--Start of about about me pic 2-->
+            <img src="img/shane2.jpg" alt="profile-phot2">
+          </div><!--End of about about me pic 2-->
+        </div><!--End of about third-width-->
       </div><!--End of about full-width-->
     </section><!--End of about section-->
-    <div class="sectionSplitter"></div>
     <section id="Contact" class="animated fadeIn"><!--start of contact section-->
+      <p id="contactSection" class="animated fadeInLeft">Contact</p>
       <div class="full-width"><!--start of contact full-width-->
-        
+        <div id="contactForm">  
+          <div id="contact-title"><!--start of contact full-width-->
+            <h4 class="cardoText">Let's Chat!</h4>
+            <p class="amiriText">If you have an idea, project or just wanna chat, just send me a message here. I'll will always try to get back to you within 24 hours. Talk soon!</p>
+          </div><!--End of contact full-width-->
+        <div class="contact-form"><!--Start of contact full-width-->
+          <form id="contact-form" method="post" action="php/contact-form-handler.php">
+          <input type="text" name="name" class="form-control amiriText" placeholder="Your Name" required><br>
+          <input type="email" name="email" class="form-control amiriText" autocomplete="off" placeholder="Email" required><br>
+
+            <textarea name="message" class="form-control amiriText" placeholder="Message" required></textarea><br>
+
+            <input type="submit" class="form-control submit amiriText" value="Send Message">
+            
+          </form>
+        </div>
+        </div><!--End of contact-form full-width-->
       </div><!--End of contact full-width-->
     </section><!--End of contact section-->
   </main><!--End of main-->
