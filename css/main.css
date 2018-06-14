@@ -66,6 +66,10 @@
   margin-left: 25%;
 }
 
+#mobileBg {
+  display: none;
+}
+
 #headersText {
   position: absolute;
   margin-left: 28.5%;
@@ -128,8 +132,16 @@
   width: 100%;
   height: 500px;
   position: relative;
-  margin-top: 56%;
+  margin-top: 58%;
   margin-bottom: 150px;
+}
+
+#workDesktop {
+  visibility: visible;
+}
+
+#workMobileVersion {
+  display: none;
 }
 
 #workSection {
@@ -434,4 +446,156 @@ input {
   margin: auto;
   font-weight: 900;
   color: black;
+}
+
+
+@media only screen and (max-width: 380px) {
+
+
+/*  Header  */
+
+header {
+  display: -webkit-box;
+}
+
+.w3-content {
+  display: none;
+}
+
+#mobileBg {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: -12;
+  }
+
+#headerMsgBg {
+    position: absolute;
+    width: 100%;
+    height: 505px;
+    background-color: black;
+    margin: auto;
+    opacity: 0.7;
+    z-index: -5;
+}
+
+#headersText {
+    margin-left: 0%;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#headersText h1 {
+    color: white;
+    font-family: 'Cardo', serif;
+    text-align: center;
+    font-size: 33px;
+}
+
+#headersText hr {
+  background-color: white;
+  width: 56%;
+}
+
+#headersText p {
+    font-family: 'Amiri', serif;
+    font-size: 23px;
+    width: 95%;
+    margin: auto;
+    line-height: 100%;
+}
+
+#connectWithMe {
+  margin-top: 10%;
+}
+
+#connectWithMe h5 {
+    font-size: 24px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+#connectWithMe a {
+    text-decoration: none;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 24px;
+    color: black;
+    background-color: yellow;
+}
+
+/*  Work  */
+
+#Work {
+  margin-top: 550px;
+  height: 300px;
+  margin-bottom: 300px
+}
+
+#workSection {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 35px;
+  text-decoration: underline;
+  margin-left: 2%;
+}
+
+#workDesktop {
+  display: none;
+}
+
+#workMobileVersion {
+  display: block;
+}
+
+#workMobileVersion a h4 {
+  font-family: times, arial;
+  text-decoration: underline;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+.projectDisplay {
+  clear: both;
+  float: none;
+  display: block;
+  width: 95%;
+  margin-top: 1.5%;
+  margin: auto;
+}
+
+.projectDisplay img {
+    width: 100%;
+}
+
+.projectInfo {
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 3%;
+    float: left;
+    display: inline-block;
+}
+
+#projectTools {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.projectInfo p {
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.projectInfo a {
+    text-decoration: none;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    margin: 0px 20%;
+}
+
 }
