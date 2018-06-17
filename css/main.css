@@ -211,6 +211,14 @@
   margin-bottom: 150px;
 }
 
+#workDesktop2 {
+  visibility: visible;
+}
+
+#workMobileVersion2 {
+  display: none;
+}
+
 #projectTools2 {
   font-size: 17px;
 }
@@ -242,6 +250,10 @@
   font-size: 35px;
   text-decoration: underline;
   margin-left: 2%;
+}
+
+#serviceSectionMobile {
+  visibility: hidden;
 }
 
 #Services .half-width {
@@ -397,6 +409,14 @@
   margin-left: 2%;
 }
 
+#contactSection {
+  visibility: visible;
+}
+
+#contactSectionMobile {
+  visibility: hidden;
+}
+
 #contactForm {
   border: 2px solid black;
   width: 48%;
@@ -451,6 +471,10 @@ input {
 
 @media only screen and (max-width: 380px) {
 
+body {
+  width: 375px;
+  overflow: hidden;
+}
 
 /*  Header  */
 
@@ -539,11 +563,16 @@ header {
   margin-left: 2%;
 }
 
-#workDesktop {
+#workDesktop,
+#workDesktop2 {
   display: none;
 }
 
 #workMobileVersion {
+  display: block;
+}
+
+#workMobileVersion2 {
   display: block;
 }
 
@@ -554,6 +583,16 @@ header {
   text-align: center;
   color: black;
 }
+
+
+#workMobileVersion2 a h4 {
+  font-family: times, arial;
+  text-decoration: underline;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
 
 .projectDisplay {
   clear: both;
@@ -596,6 +635,157 @@ header {
     color: black;
     background-color: yellow;
     margin: 0px 20%;
+}
+
+
+/* Services */
+
+#Services {
+  margin-top: 200px;
+}
+
+#serviceSection {
+  visibility: hidden;
+}
+
+#serviceSectionMobile {
+  visibility: visible;
+}
+
+#serviceSectionMobile {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 35px;
+  text-decoration: underline;
+  margin-right: 2%;
+  float: right;
+}
+
+
+#Services .half-width {
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+#theProcess ul {
+    float: left;
+    display: contents;
+    list-style: none;
+}
+
+#brainConcept {
+    width: 80%;
+    margin-left: 8%;
+}
+
+.textAlignLeft {
+    text-align: -webkit-auto;
+    margin-left: 3%;
+}
+
+#servicesDivider {
+  display: none;
+}
+
+#launchText {
+    width: 73%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+#houstonText {
+    font-weight: 600;
+    background-color: yellow;
+}
+
+/* About */
+
+#About {
+  margin-top: 600px;
+}
+
+#About .third-width {
+    border: solid 2px black;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+}
+
+#aboutPic1 {
+    height: 100%;
+    width: 100%;
+    float: none;
+    display: contents;
+}
+
+#aboutPic1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#aboutContent {
+    height: 100%;
+    width: 100%;
+    float: none;
+    display: block;
+    padding: 5%;
+}
+
+#aboutPic2 {
+    height: 455px;
+    width: auto;
+    float: none;
+    display: -webkit-box;
+}
+
+#aboutPic2 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Contact */
+#Contact {
+     margin-top: 800px;
+     margin-bottom: 200px;
+}
+
+#contactSection {
+  visibility: hidden;
+}
+
+#contactSectionMobile {
+  visibility: visible;
+}
+
+
+#contactSectionMobile {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-right: 2%;
+    float: right;
+}
+
+#contactForm {
+    border: 2px solid black;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    padding-bottom: 12%;
+}
+
+#contact-title {
+    width: 80%;
+    margin: auto;
+}
+
+.submit {
+    background-color: yellow;
+    width: 70%;
+    height: 45px;
 }
 
 }
