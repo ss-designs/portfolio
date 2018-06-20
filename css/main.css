@@ -481,6 +481,101 @@ input {
   color: black;
 }
 
+@media only screen and (max-width: 1024px) {
+
+/* Header */
+
+#headerMsgBg {
+    position: absolute;
+    width: 64%;
+    height: 400px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10%;
+    opacity: 0.7;
+    margin-left: 20%;
+}
+
+#headersText {
+    position: absolute;
+    margin-left: 23.5%;
+    margin-top: 15%;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+}
+
+#connectWithMe a {
+    text-decoration: none;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 24px;
+    color: black;
+    background-color: yellow;
+}
+
+
+/* Work */
+
+.projectInfo p {
+    font-family: 'Amiri', serif;
+    font-size: 23px;
+    width: 91%;
+}
+
+.projectDisplay {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    margin-top: 7.5%;
+}
+
+/* Servieces */
+
+#Services {
+  margin-bottom: 300px;
+}
+
+#Services .half-width {
+  height: 500px;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+#servicesDivider {
+  height: 445px;
+}
+
+#launchText {
+  margin-top: 13%;
+}
+
+/* About */
+
+#About {
+  margin-bottom: 200px;
+}
+
+#aboutContent {
+  margin-left: 7%;
+}
+
+#aboutPic1 {
+  display: none;
+  width: 0;
+}
+
+
+/* Contact */
+
+#Contact {
+  margin-bottom: 200px;
+}
+
+}
+
+
 @media only screen and (max-width: 780px) {
 
 #headerMsgBg {
@@ -549,17 +644,47 @@ input {
     border: solid 2px black;
     width: 95%;
     margin: auto;
-    height: 530px;
+    height: 560px;
 }
 
 #servicesDivider {
-  height: 470px;
+  height: 510px;
 }
 
 .serviceList2 ul{
   line-height: 25px;
 }
 
+/* About */
+
+#aboutContent {
+    width: 36%;
+    margin-left: 2%;
+    padding: 0;
+    margin-top: 7%;
+}
+
+#aboutContent h3 {
+    font-size: 30px;
+}
+
+#aboutContent p {
+    font-size: 17px;
+}
+
+#aboutPic2 {
+    height: 450px;
+    width: 350px;
+    float: left;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+/* Contact */
+
+#contactForm {
+  width: 70%;
+}
 
 
 }
@@ -590,6 +715,10 @@ input {
 
 
 /* Work */
+
+#Work {
+  margin-top: 65%;
+}
 
 .projectDisplay {
     float: left;
@@ -664,25 +793,31 @@ input {
 
 /* About */
 
-#aboutPic1 {
-  display: none;
-  width: 0;
-}
-
 #aboutContent {
     height: 450px;
-    width: 56%;
+    width: 43%;
     float: left;
     display: inline-block;
     padding: 5%;
     left: 0;
+    margin: 0;
+}
+
+#aboutContent h3 {
+    font-size: 35px;
+}
+
+#aboutContent p {
+    font-size: 17px;
+    width: 100%;
 }
 
 #aboutPic2 {
     height: 405px;
-    width: 250px;
+    width: 320px;
     float: left;
     display: inline-block;
+    margin: 0;
 }
 
 /* Contact */
@@ -952,14 +1087,10 @@ header {
 }
 
 #aboutPic1 {
-  display: contents;
-}
-
-#aboutPic1 {
     height: 100%;
     width: 100%;
     float: none;
-    display: contents;
+    display: none;
 }
 
 #aboutPic1 img {
@@ -991,6 +1122,7 @@ header {
     width: auto;
     float: none;
     display: -webkit-box;
+    margin: 0;
 }
 
 #aboutPic2 img {
@@ -1001,9 +1133,10 @@ header {
 
 
 /* Contact */
+
 #Contact {
-     margin-top: 875px;
-     margin-bottom: 200px;
+  margin-top: 475px;
+  margin-bottom: 200px;
 }
 
 #contactSection {
